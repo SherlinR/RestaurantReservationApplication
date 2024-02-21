@@ -6,7 +6,7 @@ public class RestaurantManager {
 
     // Maximum Queue Capacity is specified here,
     // this can be reduced to test for scenarios where this Queue capacity exceeds
-    final static int MAX_QUEUE_CAPACITY = 15;
+    final static int MAX_QUEUE_CAPACITY = 5000;
 
     //Maintain customer id incrementation in Queue for each entry
     private static int lastCustomerId = 0;
